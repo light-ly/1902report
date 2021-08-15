@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>电科 1902 班三下乡实践报告</title>
+    <title>电科 1902 班 晋步青年 实践报告</title>
     <link rel="icon" type="image/x-icon" href="./img/head.jpg" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/card.css" />
     <link rel="stylesheet" href="./css/photo-wall.css" />
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    ></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/card.js"></script>
+    <script type="text/javascript" src="./js/photo-wall.js"></script>
   </head>
-  <body>
+  <body>	
     <!-- 照片轮播墙 -->
-    <div class="wall-body">
+    <div class="wall-body" id="item">
+		<div class="wall_name">太原理工大学 电科 1902 班 晋步青年团队</div>
       <ul class="slides">
         <input type="radio" id="control-1" name="control" checked />
         <input type="radio" id="control-2" name="control" />
@@ -36,7 +35,7 @@
           <img src="./img/3.jpg" />
         </li>
         <li class="slide">
-          <img src="./img/4.png" />
+          <img src="./img/4.jpg" />
         </li>
         <li class="slide">
           <img src="./img/5.jpg" />
@@ -65,7 +64,7 @@
     </div>
 
     <!-- 文章卡片 -->
-    <div class="card-body">
+    <div class="card-body" id="item">
       <div class="card">
         <img src="./img/card2.jpeg" width="900" height="600" />
         <h4>学党史，知党恩，跟党走</h4>
